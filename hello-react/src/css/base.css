@@ -6,8 +6,6 @@ body {
 /* button */
 button {
     /* width, height은 알아서 */
-    width: 242px;
-    height: 86px;
     background-color: #CDE990;
     border: solid #ABCA67 3px;
     border-radius: 20px;
