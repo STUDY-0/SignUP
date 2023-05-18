@@ -1,0 +1,138 @@
+[debug] [2023-05-18T10:04:50.357Z] ----------------------------------------------------------------------
+[debug] [2023-05-18T10:04:50.359Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-05-18T10:04:50.359Z] CLI Version:   12.0.1
+[debug] [2023-05-18T10:04:50.360Z] Platform:      win32
+[debug] [2023-05-18T10:04:50.360Z] Node Version:  v18.16.0
+[debug] [2023-05-18T10:04:50.360Z] Time:          Thu May 18 2023 19:04:50 GMT+0900 (대한민국 표준시)
+[debug] [2023-05-18T10:04:50.360Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-18T10:04:50.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-18T10:04:50.366Z] > authorizing via signed-in user (0hh.0553@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Administrator\Desktop\SignUP\hello-react
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-18T10:04:56.120Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-05-18T10:04:56.321Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-05-18T10:04:56.509Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-05-18T10:05:20.756Z] ----------------------------------------------------------------------
+[debug] [2023-05-18T10:05:20.758Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-18T10:05:20.758Z] CLI Version:   12.0.1
+[debug] [2023-05-18T10:05:20.758Z] Platform:      win32
+[debug] [2023-05-18T10:05:20.758Z] Node Version:  v18.16.0
+[debug] [2023-05-18T10:05:20.759Z] Time:          Thu May 18 2023 19:05:20 GMT+0900 (대한민국 표준시)
+[debug] [2023-05-18T10:05:20.759Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-18T10:05:20.764Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-18T10:05:20.765Z] > authorizing via signed-in user (0hh.0553@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Administrator\Desktop\SignUP\hello-react
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-18T10:06:29.395Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-05-18T10:06:30.169Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-05-18T10:06:30.169Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project study-0-4b4c4 (Study-0) 
+[info] 
+=== Firestore Setup
+[debug] [2023-05-18T10:06:31.704Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/study-0-4b4c4/services/firestore.googleapis.com [none]
+[debug] [2023-05-18T10:06:31.704Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/study-0-4b4c4/services/firestore.googleapis.com x-goog-quota-user=projects/study-0-4b4c4
+[debug] [2023-05-18T10:06:33.010Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/study-0-4b4c4/services/firestore.googleapis.com 200
+[debug] [2023-05-18T10:06:33.010Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/study-0-4b4c4/services/firestore.googleapis.com [omitted]
+[debug] [2023-05-18T10:06:33.010Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default) [none]
+[debug] [2023-05-18T10:06:33.146Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default) 200
+[debug] [2023-05-18T10:06:33.146Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default) {"name":"projects/study-0-4b4c4/databases/(default)","uid":"2a625a90-f949-4771-b7cb-78a54ddfdec6","createTime":"2023-05-18T09:44:07.939377Z","updateTime":"2023-05-18T09:44:07.939377Z","locationId":"asia-northeast3","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","appEngineIntegrationMode":"DISABLED","keyPrefix":"v","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"IKO6tazP/v4CMK2YlPHO/v4C"}
+[debug] [2023-05-18T10:06:33.146Z] database_type: FIRESTORE_NATIVE
+[debug] [2023-05-18T10:06:33.146Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-18T10:06:33.147Z] > authorizing via signed-in user (0hh.0553@gmail.com)
+[debug] [2023-05-18T10:06:33.147Z] [iam] checking project study-0-4b4c4 for permissions ["firebase.projects.get"]
+[debug] [2023-05-18T10:06:33.147Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/study-0-4b4c4:testIamPermissions [none]
+[debug] [2023-05-18T10:06:33.147Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/study-0-4b4c4:testIamPermissions x-goog-quota-user=projects/study-0-4b4c4
+[debug] [2023-05-18T10:06:33.147Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/study-0-4b4c4:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-05-18T10:06:34.099Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/study-0-4b4c4:testIamPermissions 200
+[debug] [2023-05-18T10:06:34.099Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/study-0-4b4c4:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2023-05-18T10:06:37.149Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/study-0-4b4c4/releases pageSize=10&pageToken=
+[debug] [2023-05-18T10:06:38.279Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/study-0-4b4c4/releases 200
+[debug] [2023-05-18T10:06:38.279Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/study-0-4b4c4/releases {"releases":[{"name":"projects/study-0-4b4c4/releases/cloud.firestore","rulesetName":"projects/study-0-4b4c4/rulesets/4b5e5573-5af1-425b-abce-c381e7c5cf82","createTime":"2023-05-18T09:44:16.077441Z","updateTime":"2023-05-18T09:44:16.077441Z"},{"name":"projects/study-0-4b4c4/releases/firebase.storage/study-0-4b4c4.appspot.com","rulesetName":"projects/study-0-4b4c4/rulesets/75bdacbc-a41d-4556-8d08-ed73250582fa","createTime":"2023-05-18T09:45:08.749610Z","updateTime":"2023-05-18T09:45:08.749610Z"}]}
+[debug] [2023-05-18T10:06:38.279Z] Found ruleset: projects/study-0-4b4c4/rulesets/4b5e5573-5af1-425b-abce-c381e7c5cf82
+[debug] [2023-05-18T10:06:38.279Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/study-0-4b4c4/rulesets/4b5e5573-5af1-425b-abce-c381e7c5cf82 [none]
+[debug] [2023-05-18T10:06:38.654Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/study-0-4b4c4/rulesets/4b5e5573-5af1-425b-abce-c381e7c5cf82 200
+[debug] [2023-05-18T10:06:38.654Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/study-0-4b4c4/rulesets/4b5e5573-5af1-425b-abce-c381e7c5cf82 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2023-05-18T10:06:41.108Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2023-05-18T10:06:41.109Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2023-05-18T10:06:41.238Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2023-05-18T10:06:41.238Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/study-0-4b4c4/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[debug] [2023-05-18T10:06:41.245Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2023-05-18T10:06:41.245Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/study-0-4b4c4/databases/(default)/collectionGroups/-/indexes {}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-05-18T10:06:46.717Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-05-18T10:06:46.856Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-05-18T10:06:46.856Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.22.0","browserURL":"https://www.gstatic.com/firebasejs/9.22.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.22.0/firebase.tgz"},"live":{"version":"9.22","browserURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.22.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.22.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.22.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.22.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.22.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.22.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.22.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.22.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.22.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.22.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Administrator\Desktop\SignUP 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=267115295&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-05-18T10:06:54.703Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-05-18T10:06:54.703Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-05-18T10:06:55.014Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-05-18T10:06:55.014Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-05-18T10:06:55.020Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-05-18T10:06:56.372Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-05-18T10:06:56.372Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"dbdbennn","id":85720276,"node_id":"MDQ6VXNlcjg1NzIwMjc2","avatar_url":"https://avatars.githubusercontent.com/u/85720276?v=4","gravatar_id":"","url":"https://api.github.com/users/dbdbennn","html_url":"https://github.com/dbdbennn","followers_url":"https://api.github.com/users/dbdbennn/followers","following_url":"https://api.github.com/users/dbdbennn/following{/other_user}","gists_url":"https://api.github.com/users/dbdbennn/gists{/gist_id}","starred_url":"https://api.github.com/users/dbdbennn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dbdbennn/subscriptions","organizations_url":"https://api.github.com/users/dbdbennn/orgs","repos_url":"https://api.github.com/users/dbdbennn/repos","events_url":"https://api.github.com/users/dbdbennn/events{/privacy}","received_events_url":"https://api.github.com/users/dbdbennn/received_events","type":"User","site_admin":false,"name":"Yu Jung Eun","company":"Mirim Meister High School","blog":"instagram.com/dbdbeun","location":"Bucheon","email":null,"hireable":null,"bio":"I'm Student of Mirim Meister School.\r\nFrontEnd Developer 💻🖱","twitter_username":null,"public_repos":28,"public_gists":1,"followers":22,"following":22,"created_at":"2021-06-11T02:56:59Z","updated_at":"2023-05-18T04:30:22Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":28956,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as dbdbennn 
+[info] 
