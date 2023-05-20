@@ -30,7 +30,7 @@ body {
     margin-right: 291px;
 }
 
-.input-label {
+.label {
     font-size: 30px;
     width: 261px;
     text-align: right;
@@ -75,7 +75,7 @@ button {
         margin-top: 20px;
     }
 
-    .input-label {
+    .label {
         font-size: 22px;
         width: 153.61px;
     }
@@ -108,7 +108,7 @@ button {
         margin-top: 20px;
     }
 
-    .input-label {
+    .label {
         display: none;
     }
 
